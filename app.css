@@ -64,16 +64,17 @@ header {
 }
 
 .intro {
-  padding-top: 30px;
+  padding-left: 60px;
+  padding-top: 60px;
   padding-bottom: 60px;
-  padding-right: 175px;
-  width: 450px;
+  padding-right: 215px;
+  width: 550px;
 
   /* 145x160 */
   background-image: url('headshot.png');
   background-position: bottom right;
   background-repeat: no-repeat;
-  background-size: 145px 160px;
+  background-size: 220px 176px;
 }
 
 .intro em {
@@ -98,7 +99,7 @@ main {
   padding-top: 40px;
   position: relative;
 
-  background-color: #f1f2ed;
+  background-color: #272726;
 }
 
 main:before,
@@ -165,10 +166,10 @@ main:after {
   height: 44px;
   width: 200px;
 
-  border: 1px solid #9d9e9a;
+  border: 1px solid #848582;
   border-radius: 3px;
 
-  color: #545453;
+  color: #b6b6af;
   font-size: 1.8rem;
   line-height: 44px;
   text-align: center;
@@ -177,10 +178,10 @@ main:after {
 }
 
 .actions a.primary {
-  background-color: #302f3f;
+  background-color: #b6519a;
   border-color: #302f3f;
 
-  color: #f1f2ed;
+  color: #fff;
 }
 
 .actions a + a {
