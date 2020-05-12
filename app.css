@@ -75,6 +75,8 @@ header {
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: 220px 176px;
+
+  color: #b2b2b3;
 }
 
 .intro em {
@@ -204,6 +206,9 @@ main:after {
   width: 40px;
 
   background-size: 40px 44px;
+
+  color: #fff;
+  font: 0 / 0 a;
 }
 
 .social a + a {
